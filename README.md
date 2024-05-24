@@ -19,7 +19,8 @@
 
 ## Последовательность работы с потоком
 
-* **Открываем поток.** *FileInputStream fis = new FileInputStream("fileName");*
+* **Создаём поток.**
+* **Открываем поток.** *FileInputStream fis = new FileInputStream("fileName");* (здесь создание и запись)
 * **Читаем данные из потока (Или записываем).** *i = fis.read()*
 * **Закрываем поток.** *fis.close();*
 
